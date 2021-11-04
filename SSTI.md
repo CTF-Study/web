@@ -5,3 +5,4 @@
 # 파일
 1. 위 mro의 subclass 에서 <type 'file'>의 인덱스를 찾는다.
 2. {{ ''.__class__.__mro__[`인덱스`].__subclasses__()[`인덱스`].open(`파일 경로`).read() }}
+3. 만약 <type 'file'>이 없다면 subprocess.Popen 같은걸 이용하자.
