@@ -12,3 +12,4 @@ php://filter/convert.base64-decode/resource=`경로`
 
 ## zip://
 zip파일의 압축을 풀고 압축을 푼 파일안에 있는 코드를 실행.
+zip://`압축 파일`#`내부 파일`
